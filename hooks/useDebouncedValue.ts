@@ -1,6 +1,6 @@
 import { SetStateAction, useEffect, useState } from "react";
 
-export const useDeboucedValue = (
+export const useDebouncedValue = (
   value: SetStateAction<string>,
   delay = 300
 ) => {
