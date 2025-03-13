@@ -1,5 +1,5 @@
-import { Stack } from "expo-router";
+import Users from "@/components/Users";
 
 export default function RootLayout() {
-  return <Stack />;
+  return <Users />;
 }
